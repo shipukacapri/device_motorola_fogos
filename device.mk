@@ -7,6 +7,9 @@
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 720
 
+# MotoCam
+$(call inherit-product, vendor/motorola/MotCamera4/motcamera4.mk)
+
 # Screen
 TARGET_SCREEN_DENSITY := 280
 
